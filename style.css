@@ -1,12 +1,13 @@
 * {
   margin: 0 auto;
+  font-family: 'Patua One', sans-serif;
 }
 
 html {
-  background-color: #F9F1F0;
 }
 
 body {
+  background-color: #F9F1F0!important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,19 +15,23 @@ body {
 }
 
 button {
-  background-color: #F79489;
+  background-color: #F79489!important;
   border: none;
- color: white;
- padding: 20px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 16px;
- margin: 4px 2px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-transform: uppercase!important;
 }
 
 button:hover {
   transform: scale(1.2);
+}
+
+#quotes-div{
+  margin: auto 20px;
 }
 
 /**
