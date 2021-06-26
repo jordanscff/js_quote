@@ -28,6 +28,16 @@ button:hover {
   transform: scale(1.2);
 }
 
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#buttons button {
+  margin: 20px;
+}
+
 #quotes-div{
   margin: auto 20px;
 }
