@@ -7,6 +7,7 @@ quotesDiv.innerHTML =  `<p>Choose selection above</p>`
 
 //Get Quote
 quotes.addEventListener("click", evt => {
+  quotesDiv.innerHTML =  `<img id='ajax-spinner' src='ajax-spinner.gif'>`
   fetch('https://type.fit/api/quotes')
   .then(res => res.json())
   .then(quote => {
@@ -17,6 +18,7 @@ quotes.addEventListener("click", evt => {
 
 //Get Advice
 advices.addEventListener("click", evt => {
+  quotesDiv.innerHTML =  `<img id='ajax-spinner' src='ajax-spinner.gif'>`
   fetch('https://api.adviceslip.com/advice')
   .then(res => res.json())
   .then(advice => {

@@ -59,6 +59,10 @@ button:hover {
 #github-button a:hover{
   color: #F79489!important;
 }
+
+#ajax-spinner {
+  width: 30px;
+}
 /**
 #F9F1F0
 #FADCD9
